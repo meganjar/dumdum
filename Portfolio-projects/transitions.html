@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            height: 500px;
+        }
+        .big-ol {
+            height: 50%;
+        }
+
+        #red {
+            background-color: red;
+            transition-duration: 0.6s;
+            transition-property: all;
+            height: 20px;
+            width: 10%;
+        }
+        #red:hover {
+            width: 30%;
+        }
+
+        #blue {
+            background-color: blue;
+            transition-duration: 0.6s;
+            transition-property: all;
+            height: 20px;
+            width: 10%;
+        }
+
+        #blue:hover {
+            /* transform: translateX(100px); */
+            width: 30%;
+        }
+
+        .square {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            
+        }
+
+        .square:hover {
+            /* transform: rotate(90deg); */
+        }
+
+        .red  {
+                background-color: red ;
+                position: relative;
+                /* transitioproperty: all ;
+                transition-duration: 1s; */
+                height: 50px;
+                width: 50px;
+                z-index: 10;
+        }
+        .blue  {
+                background-color: rgb(46, 10, 250) ;
+                position: relative;
+                transition-property: all;
+                height: 50px;
+                width: 50px;
+                z-index: 10;
+                
+        }
+        .yellow  {
+                background-color: rgb(234, 240, 54) ;
+                position: relative;
+                transition-property: all ;
+                height: 50px;
+                width: 50px;
+                z-index: 10;
+        }
+        .green  {
+                background-color: rgb(17, 136, 62) ;
+                transition-property: all ;
+                position: relative;
+                height: 50px;
+                width: 50px;
+                z-index: 10;
+        }
+
+        .square:hover .red {
+            display: flex;
+            transition-property: all ;
+            transition-duration: 1s;
+            transform: rotate(90deg);
+            transform-origin: top left;
+
+        }
+        .square:hover .green {
+            display: flex;
+            transition-property: all ;
+            transition-duration: 1s;
+            transform: rotate(-90deg);
+            transform-origin: top right;
+
+            
+
+        }
+        .square:hover .blue {
+            display: flex;
+            transition-property: all ;
+            transition-duration: 1s;
+           
+            transform: rotate(-90deg);
+            transform-origin: top right;
+
+        }
+        .square:hover .yellow {
+            display: flex;
+            transition-property: all ;
+            transition-duration: 1s;
+            transform: rotate(-90deg);
+            transform-origin: bottom left;
+
+        }
+
+        p {
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-content: center;
+            z-index: 1;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="big-ol">
+            <div id="red"></div>
+            <div id="blue"></div>
+
+    </div>
+
+    <br><br>
+
+    <div class="square">
+        <p>hello world</p>
+    <div>
+        <div class="red"></div>
+        <div class="yellow"></div>
+    </div>
+
+    <div>
+        <div class="green"></div>
+        <div class="blue"></div>
+    </div>
+</div>
+    
+</body>
+</html>

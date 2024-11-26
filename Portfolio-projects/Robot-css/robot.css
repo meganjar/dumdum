@@ -1,0 +1,84 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+
+img {
+  width: 50px;
+  position: absolute;
+
+}
+
+#face {
+  width: 400px;
+  position: relative;
+  top: 30px;
+}
+
+#bird {
+  top: 1px;
+  left: 130px;
+  width: 150px;
+
+
+}
+
+#sunglasses {
+  top: 150px;
+  left: 80px;
+  width: 280px;
+  opacity: 80%;
+
+}
+
+#sunglesses:hover {
+  width: 480px;
+  transition: all 2s;
+  animation: name 2s timing-function fill-mode;
+  rotate: 360deg;
+}
+
+#mouth1 {
+  top: 350px;
+  left: 130px;
+  width: 150px;
+
+}
+
+#mouth1:hover {
+  transition: all 2s;
+  animation: name 2s timing-function fill-mode;
+  rotate: 360deg;
+  width: 300px;
+
+}
+
+#eyes1 {
+  top: 180px;
+  left: 130px;
+  width: 150px;
+
+
+}
+
+
+#eyes1:hover {
+  top: 180px;
+  left: 130px;
+  width: 150px;
+  transition: all 2s;
+  animation: name 2s timing-function fill-mode;
+  rotate: 360deg;
+  width: 300px;
+
+
+}
+
+
+
+#nose3 {
+  top: 270px;
+  left: 175px;
+  width: 50px;
+
+
+}

@@ -1,0 +1,8 @@
+const holidayCards = [
+    { name: "Mom & Paul", message: "Wishing you a joyous holiday season. Thanks for all of the love and support you provide every year and this year especially." },
+    { name: "Katie & Kyle", message: "Happy Holidays, Hope you are feeling at home in Bend and close to finding your home in Bend. Give Jed 10,000 kisses and head pets for me." },
+    { name: "Dad, Emily and Summer", message: "Season's Greetings, ! Here's to a great new year!" },
+    {name: "Dallas Cohens", message: "Wishing y’all a season filled with joy, laughter, and blessings as big as the Texas sky. May your days be as smooth as fresh cream, and your celebrations as spirited as a rodeo on a Friday night. Here’s to a season of togetherness, where no one escapes the relentless, suffocating warmth of family love. And as the year rounds up, may 2025 find you riding high, with hearts full and spirits wild. Giddy-up into the new year  in style!"}
+    
+  {name:"generic", message:"Wishing you a season filled with love, laughter, and enough holiday spirit to make the whole herd smile. May your days be as peaceful as a pasture at sunrise and your celebrations as lively as a barn dance under the stars. Here’s to a season of togetherness, where no one escapes the relentless, suffocating warmth of holiday cheer. As we gallop into the new year, may 2024 bring you plenty of adventures, joy, and moments worth moo-ing about. Yeehaw!"}
+  ];

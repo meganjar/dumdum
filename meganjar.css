@@ -1,0 +1,112 @@
+/* Social Links */
+#body {
+    margin: 7%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: top;
+    justify-content: space-between;
+  
+  
+}
+
+#flex> * {
+    flex: 1 1 300px; 
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+   
+}
+
+#social-link-inline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 350px;
+}
+
+#stack-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 20px;
+    width: 500px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#spotify-embed {
+ 
+    width: 100%;
+    margin: inline-block;
+   
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove double borders */
+  }
+
+  th, td {
+    border: 1px solid #ddd; /* Border for cells */
+    padding: 8px; /* Space inside cells */
+    text-align: left; /* Align text to the left */
+  }
+
+  th {
+    background-color: #9f9494;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tr:hover {
+    background-color: #f1f1f1; 
+  }
+
+  tr:visited {
+    background-color: #600183; 
+  }
+    
+
+  #feedback * > *{
+    margin: 3px;
+  }
+
+  .bio-image {
+    display: block;
+    margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 150px;
+    gap: 20px;
+  } 
