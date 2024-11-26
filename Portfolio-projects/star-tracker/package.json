@@ -1,0 +1,19 @@
+{
+  "name": "scrim-s03i8nc",
+  "description": "https://v2.scrimba.com/learn-javascript-c0v/~0t",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
